@@ -178,9 +178,10 @@ The `.env` file in the `backend/` directory holds sensitive environment variable
 **Example `.env` File:**
 
 ```env
-HF_API_KEY=your_huggingface_api_key
-OPENAI_API_KEY=your_openai_api_key
-WEAVIATE_URL=your_weaviate_url
+MODEL=<your_model> we are using gemini
+GEMINI_API_KEY=<your_key>
+SERPER_API_KEY=<your_key>
+HF_API_KEY=<your_key>
 # Add other necessary keys here
 ```
 
