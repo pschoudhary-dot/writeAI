@@ -300,6 +300,6 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 For any inquiries, suggestions, or support, please reach out to:
 
 - **Email:** <>
-- **GitHub:** [your-username](https://github.com/pschoudhary-dot)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/mr-dark-debug)
+- **GitHub:** [pschoudhary-dot](https://github.com/pschoudhary-dot)
+- **LinkedIn:** [Prashant choudhary](https://www.linkedin.com/in/mr-dark-debug)
 
