@@ -299,10 +299,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 For any inquiries, suggestions, or support, please reach out to:
 
-- **Email:** your-email@example.com
-- **GitHub:** [your-username](https://github.com/your-username)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+- **Email:** <>
+- **GitHub:** [your-username](https://github.com/pschoudhary-dot)
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/mr-dark-debug)
 
----
-
-**Disclaimer:** Replace placeholder URLs, email addresses, and other personal information with your actual details before publishing the README.
