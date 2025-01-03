@@ -1,0 +1,80 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current year is 2025.
+    These responsibilities highlight the role of the AI Research Assistant in supporting the content creation process by leveraging AI and machine learning techniques to streamline research, gather relevant data and insights, and facilitate collaboration between AI and human content creators based on the user input {topic}.
+  expected_output: >
+    Structuring a content plan that includes headings, subheadings, and key points to cover for the {topic}.
+     Exaple output:
+        ### Title: The Role of AI in Healthcare
+
+        ### Introduction:
+        - Brief overview of ....
+
+        ### 1: AI Applications in Diagnosis and Disease Detection
+        * 1.1: Medical Imaging and Radiology
+        * 1.2: .......
+        ### 2: .......
+        ### Conclusion:
+        ### References:
+        ### Sources:
+  agent: researcher
+
+
+content_creator_task:
+  description: >
+    The role of generating initial drafts of content requires a blend of creativity, research skills, attention to detail, and adherence to guidelines. By effectively translating research insights into compelling content drafts, content creators lay the groundwork for successful content marketing campaigns that resonate with the target audience and achieve business objectives.
+    Create a content plan for the {topic}
+    Make sure the content plan is detailed and contains any and all relevant information.
+  expected_output: >
+    A fully fledge content plan with the mains topics, each with a full section of information.
+    Based on the content plan, generate a draft using an AI text-generation model. This should form the body of your content.
+    Generating creative ideas for content, including headlines, taglines, and calls-to-action.
+  agent: content_creator_agent
+
+
+visual_content_creator_task:
+  description: >
+    The role of the visual content creator is to create visual content for the content {topic}.
+    Make sure the visual content is detailed and contains any and all relevant information.
+    Incorporate an AI-based image generation model to create relevant images for the content. Ensure these images are saved locally.
+  expected_output: >
+    Generate a .png or .jpg file image based on the input and return it in images folder
+    The image should be relevant to the content and the topic.
+    The image should be a high quality, 4k image.
+    The image should be a single image, not a collage.
+    The image should have a main title text that should represent the topic.
+  agent: visual_content_creator_agent
+
+
+seo_analyst_task:
+  description: >
+    The role of SEO analysis is to optimize content for search engines, ensuring that it ranks higher in search results and attracts more organic traffic. By conducting thorough keyword research, analyzing competitors, and implementing best practices, SEO analysts help businesses improve their online visibility and drive more traffic to their websites.
+    Analyze the content plan and the content draft and provide a detailed analysis of the content.
+    Make sure the analysis is detailed and contains any and all relevant information.
+    The role involves optimizing content for search engines by analyzing, recommending improvements, and monitoring performance, ultimately aiming to enhance content discoverability online and improve its ranking on search engine results pages.
+  expected_output: >
+    A detailed analysis of the content plan and the content draft.
+    Apply SEO best practices to the generated content. This may involve:
+        - Keyword optimization.
+        - Meta tags and descriptions.
+        - Readability improvements.
+
+        The expected output of an SEO Analyst is analyzing content for SEO best practices, including keyword density, meta descriptions, and title tags. Recommending improvements to enhance content ranking on search engines. Monitoring content performance and providing insights for content optimization.
+        """,
+  agent: seo_analyst_agent
+
+
+editorial_assistant_task:
+  description: >
+    The role of the editorial assistant is to review the content and provide feedback on its quality, structure, and adherence to the content plan.
+    The Editorial Assistant plays a pivotal role in guaranteeing that published content is error-free, stylistically appropriate, and prepared to meet the publication's standards and expectations.
+    Make sure the content is detailed and contains any and all relevant information.
+  expected_output: >
+    A detailed analysis of the content plan and the content draft.
+    The expected output is high-quality content that is polished, accurate, and in line with the publication's editorial standards, ensuring a positive reader experience and maintaining the publication's reputation for excellence.
+  agent: editorial_assistant_agent
+
+
+  
