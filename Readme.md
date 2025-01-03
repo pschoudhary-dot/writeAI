@@ -2,12 +2,15 @@
 # WRITEAI
 
 ### HomePage
+----
 ![image](https://github.com/user-attachments/assets/87e4f4dd-2444-4fbb-9947-6c80886c3cd4)
 
 ### AuthPage
+----
 ![image](https://github.com/user-attachments/assets/6b5410f8-ef38-4852-95f0-f88944916692)
 
 ### chatPage
+----
 ![image](https://github.com/user-attachments/assets/d8a03946-8135-453e-973c-23a184da31dc)
 
 
