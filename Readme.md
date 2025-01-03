@@ -2,7 +2,7 @@
 # WRITEAI
 
 ![image](https://github.com/user-attachments/assets/87e4f4dd-2444-4fbb-9947-6c80886c3cd4)
-) <!-- Replace with your actual logo URL -->
+<!-- Replace with your actual logo URL -->
 
 WRITEAI is an advanced AI-powered content creation platform designed to streamline the entire content development process. From in-depth research and content generation to visual content creation, SEO analysis, and editorial assistance, WRITEAI leverages cutting-edge machine learning models and intelligent tools to empower users to produce high-quality, engaging content efficiently and effectively.
 
